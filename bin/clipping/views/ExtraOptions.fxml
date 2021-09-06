@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane fx:id="pane" alignment="CENTER" prefHeight="41.0" prefWidth="500.0" stylesheets="@../css/ExtraOptionsStyle.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="clipping.controllers.ExtraOptionsController">
+   <columnConstraints>
+      <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="125.0" minWidth="100.0" />
+      <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="366.0" minWidth="10.0" prefWidth="300.0" />
+      <ColumnConstraints halignment="CENTER" hgrow="NEVER" minWidth="100.0" prefWidth="100.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+   </rowConstraints>
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="57.0" prefWidth="112.0" text="Tamaño de la imagen final" textAlignment="CENTER" textOverrun="CLIP" wrapText="true" />
+      <Label fx:id="label" alignment="TOP_LEFT" prefHeight="33.0" prefWidth="76.0" text="Auto" GridPane.columnIndex="2" />
+      <Slider fx:id="slider" blockIncrement="1.0" max="1000.0" min="100.0" onKeyPressed="#sliderActionKey" onMouseDragged="#sliderActionMouse" onMousePressed="#sliderActionMouse" prefHeight="33.0" prefWidth="288.0" showTickLabels="true" GridPane.columnIndex="1" />
+   </children>
+</GridPane>

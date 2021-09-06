@@ -1,0 +1,69 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root{
+	-fx-background-color: #404040;
+}
+
+.label{
+	-fx-background-color: #506068B0;
+	-fx-text-fill: #B0B0B0;
+}
+
+
+#bottomMenu{
+	-fx-background-color: #506068B0;
+}
+
+
+
+.button{
+	-fx-text-fill: #B0B0B0;
+}
+
+#extraOptionsBtn{
+	-fx-background-color: #505070;
+}
+
+#extraOptionsBtn:hover{
+	-fx-background-color: #607090;
+}
+
+#extraOptionsBtn:pressed{
+	-fx-background-color: #2A303A;
+}
+
+#okBtn{
+	-fx-background-color: #408040;
+}
+
+#okBtn:hover{
+	-fx-background-color: #50A060;
+}
+
+#okBtn:pressed{
+	-fx-background-color: #204030;
+}
+
+#cancelBtn{
+	-fx-background-color: #804040;
+}
+
+#cancelBtn:hover{
+	-fx-background-color: #A05060;
+}
+
+#cancelBtn:pressed{
+	-fx-background-color: #402030;
+}
+
+
+#configBtn{
+	-fx-background-color: #404080;
+}
+
+#configBtn:hover{
+	-fx-background-color:  #5060A0;
+}
+
+#configBtn:pressed{
+	-fx-background-color: #203040;
+}

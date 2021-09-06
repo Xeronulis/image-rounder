@@ -1,0 +1,28 @@
+
+
+
+.root{
+	-fx-background-color: #506068B0;
+}
+
+.label{
+	-fx-background-color: #50606800;
+	-fx-text-fill: #B0B0B0;
+}
+
+.slider .axis{
+	-fx-tick-label-fill: #B0B0B0;
+}
+
+.slider .thumb{
+	-fx-background-color: #B0B0D0;
+}
+
+.slider .track{
+	-fx-background-color: #606070;
+}
+
+
+#pane{
+	-fx-background-color: #506068B0;
+}
